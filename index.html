@@ -140,7 +140,7 @@
   .app:fullscreen{width:100vw;height:100vh;background:var(--bg);padding:0;}
   .editorWrap:fullscreen, .outputWrap:fullscreen{width:100vw;height:100vh;background:var(--panel);}
 
-  .tabs{display:flex;border-bottom:1px solid var(--border);background:var(--tab-inactive);flex:none;}
+  .tabs{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--border);background:var(--tab-inactive);flex:none;}
   .titleTab{padding:9px 20px;font-size:14px;font-weight:bold;color:var(--text);background:var(--tab-active);border-bottom:1px solid var(--tab-active);margin-bottom:-1px;user-select:none;}
   .aboutLink{padding:0 14px;font-size:13px;font-weight:bold;color:var(--tab-text);text-decoration:none;cursor:pointer;display:flex;align-items:center;}
   .aboutLink:hover{color:var(--link);}
@@ -314,6 +314,7 @@
       <a class="toolLink" href="https://csv.tasqen.com/" target="_blank" rel="noopener">CSV Viewer</a>
       <a class="toolLink" href="https://qr.tasqen.com/" target="_blank" rel="noopener">QR Generator</a>
       <a class="toolLink" href="https://password.tasqen.com/" target="_blank" rel="noopener">Password Generator</a>
+      <a class="toolLink" href="https://base64.tasqen.com/" target="_blank" rel="noopener">Base64 Converter</a>
       <a id="btnAbout" class="aboutLink" title="About">About</a>
       <span class="themeReset" id="themeReset" title="Reset to automatic (follow local time)">&#8635;</span>
       <div class="themeToggle" id="themeToggle" title="Toggle dark mode"><span id="themeIcon">&#9789;</span></div>
